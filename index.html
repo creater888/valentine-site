@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang ="en-US">
+    <head>
+     <meta charset="UTF-8">
+     <title>valentine</title>
+     <link rel="icon" href="roseee.ico">
+     <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+     <h1>Created by Yateesh</h1>
+     <div class="dialog">
+        <p>will you be my valentine?</p>
+        <button class="yes" onclick="window.location.href='yes.html'">Yes</button>
+        <button class="no" id="noBtn">No</button>
+    </div>
+    </body>
+</html>
+<script>
+  const noBtn = document.getElementById("noBtn");
+  noBtn.addEventListener("mouseover", () => {
+    const x = Math.floor(Math.random() * (window.innerWidth - 100));
+    const y = Math.floor(Math.random() * (window.innerHeight - 50));
+    noBtn.style.position = "absolute";
+    noBtn.style.left = x + "px";
+    noBtn.style.top = y + "px";
+  });
+</script>

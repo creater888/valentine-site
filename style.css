@@ -1,0 +1,53 @@
+/* Page background */
+body {
+  margin: 0;
+  height: 100vh;
+  background-image: url("valentine.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #ff2e63;
+}
+
+/* Dialog box */
+.dialog {
+  background: rgb(249, 247, 247);
+  color: rgb(228, 28, 98);
+  padding: 25px 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.7);
+  display: inline-block;
+  margin-top: 15%;
+}
+
+/* Buttons */
+button {
+  margin: 10px;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.yes {
+  background: #ff2e63;
+  color: white;
+}
+
+.no {
+  background: gray;
+  color: white;
+  transition: 0.2s;
+}
+footer {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  color: #dd2160;
+  font-size: 14px;
+}
